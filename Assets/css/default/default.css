@@ -1,0 +1,18 @@
+﻿body, dd, div, dt, li, p, span, td {
+  font: 14px/1.5 Microsoft Yahei, SimHei, tahoma, arial, Hiragino Sans GB, SimSun, sans-serif;
+  font-weight: normal;
+  color: #000;
+}
+/* browser hack*/
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /* 修复chrome input光标上移*/
+  input[type] {
+    font: 14px/normal Microsoft Yahei, SimHei, tahoma, arial, Hiragino Sans GB, SimSun, sans-serif;
+  }
+}
+/*去除firefox按钮虚线框*/
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}

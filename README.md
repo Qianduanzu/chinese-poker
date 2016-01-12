@@ -1,4 +1,4 @@
 chinese-poker
 =========
 
->fight the Landlord
+>fight the landlord
